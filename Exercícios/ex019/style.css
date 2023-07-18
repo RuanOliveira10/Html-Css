@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/*
+Em html id é igual a # em css (Só pode ter um elemento)
+Em html class é igual a . em css (Pode ter vários elementos)
+*/
+@font-face {
+    font-family:'london';
+    src: url('fonts/OldLondonAlternate.ttf') format(truetype),url('fonts/Olondona.otf') format(opentype);
+}
+body{
+    background-image: linear-gradient(to top, #333132, #454F5E, #B19A33, #C0AA48, #FFFFFF);
+    background-attachment: fixed;
+    font-family:'london', Arial, Helvetica, sans-serif; 
+    font-size: 20px;
+}
+h1{
+    color: #454F5E;
+    text-align: justify;
+}
+h1#principal{
+    text-align: center;
+    background-color: silver;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+}
+.basico{
+    color: rgba(0, 128, 17, 0.548);
+
+}
+.intermediario{
+    color: rgba(187, 255, 0, 0.596);
+}
+.avancado{
+    color: rgba(192, 2, 2, 0.795);
+}
